@@ -83,7 +83,7 @@ export default function ProductForm({ product }: { product?: Product | null }) {
             alt={"Product Image"}
             width={300}
             height={300}
-            className="text-destructive"
+            className="text-destructive object-cover"
           />
         )}
         {error.image && <div className="text-destructive">{error.image}</div>}
